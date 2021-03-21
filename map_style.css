@@ -1,0 +1,66 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+    color: var(--mainText);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p, li, span, label, input, textarea{
+    color: var(--secondaryText);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#17a2b8;
+}
+ul{
+   list-style: none; 
+}
+h1{font-size: 56px;}
+h2{font-size: 36px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 20px;}
+h6{font-size: 16px;}
+
+canvas
+{
+    pointer-events: none;       /* make the canvas transparent to the mouse - needed since canvas is position infront of image */
+    position: absolute;
+}
+
+#master_wrap_0{
+    display: block; 
+    position: relative; 
+    padding: 0px; 
+    width: auto; 
+    height: auto;
+}
+#img201293016112{
+    width: auto;
+    height: auto; 
+    opacity: 1;
+}
+
+#myCanvas{  
+    width: auto;
+    height: auto;
+}
+
+.tooltip{
+    margin:8px;
+    padding:8px;
+    border:1px solid rgb(0, 0, 0);
+    background-color:rgba(247, 162, 52, 0.856);
+    position: absolute;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1200px){
+
+}

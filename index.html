@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apocalyptic Prophecy</title>
+        <mate name="viewport" content="width=device-width,
+        initial-scale=1, maximum-scale=1, minimum-scale=1" />
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="default.css">
+        <script src="scripts.js"></script>
+        <style>
+          #switch-pages-to-map{
+              color:greenyellow;
+          }  
+        </style>
+    </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#charts" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> CHARTS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#charts" class="w3-bar-item w3-button" onclick="toggleFunction()">CHARTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="dv-dark-gray w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity">Apocalyptic Prophecy</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">"Write the vision and make it plain on tablets, so he may run who reads it!
+                    For the vision is for the appointed time but at the end it shall speak"</h3>
+    <h5 class="w3-center">Hab 2:2</h5>
+  <h3 class="w3-center">ABOUT THE PROJECT</h3>
+  <p class="w3-center"><em></em></p>
+  <p> At the time of the Great Second Advent Movement (1840-1844), a chart was created based on the book of Daniel and Revelation.
+    The chart devised by Charles Fitch and Apollos Hale helped preachers explain Daniel's prophecy to their listeners. God also directed the leaders 
+    of the movement through Hab 2:2 to draw a large poster with the chart that was used in large meeting to preach prophecy. Adapting the message of 
+    Habakkuk to our days, God inspires us to create an interactive table on the network so that every person on the planet who has access to the 
+    Internet can interactively study the Apocalyptic prophecy of the book of Daniel and the book of Revelation through this table.</p>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Interactive</span><br>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Colorful</span><br>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">High Quality</span><br>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Responsive</span><br>
+  </div>
+</div>
+
+<!-- Second Parallax Image with Charts Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large dv-dark-gray w3-xlarge w3-wide w3-animate-opacity">CHARTS</span >
+  </div>
+</div>
+
+<!-- Container (Charts Section) -->
+<div class="w3-content w3-container w3-padding-64" id="charts">
+  <!--h3 class="w3-center">The Map</h3 -->
+
+  <p class="w3-center"><em>Click on the images to make them bigger for preview<br> or click a button to open a mape.</button></em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <div>
+        <p class="w3-center">Map of Daniel's prophecies</p>
+        <img src="images/danielchart_1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Map of Daniel's prophecies">
+      </div>    
+    </div>
+
+    <div class="w3-col m3">
+      <p class="w3-center">Prophecies Time Line</p>
+      <img src="images/THE_2300_Days-mirror-lg.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Prophecies Time Line">
+    </div>
+
+    <div class="w3-col m3">
+      <p class="w3-center">Senctuary Plan</p>
+      <img src="images/sda-sanctuary-diagram-7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Senctuary Plan">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <div class="w3-padding-32">
+        <button id="switch-pages-to-map"class="w3-button w3-padding-large w3-light-grey w3-center" style="margin-top:64px" onclick="window.location.href='map.html';" formtarget="_blank" >OPEN THE TABLE</button>
+      </div>    
+    </div>
+
+    <div class="w3-col m3">
+      <div class="w3-padding-32">
+        <button id="switch-pages-to-map"class="w3-button w3-padding-large w3-light-grey w3-center" style="margin-top:64px" onclick="window.location.href='map.html';" formtarget="_blank" >NOT AVAILABLE YET</button>
+      </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="w3-padding-32">
+        <button id="switch-pages-to-map"class="w3-button w3-padding-large w3-light-grey w3-center" style="margin-top:64px" onclick="window.location.href='map.html';" formtarget="_blank" >NOT AVAILABLE YET</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-center w3-padding-large dv-dark-gray w3-xlarge w3-wide w3-animate-opacity">CONTACT</span >
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">We'd love your feedback!</h3>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Seattle, US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +1 444 4445555<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+      </div>
+
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</html>
